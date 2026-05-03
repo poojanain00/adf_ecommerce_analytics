@@ -1,0 +1,15 @@
+{
+	"name": "ecom-dev-ingestion",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4b001c31-d4bd-4197-8542-fb4582e31cd5",
+		"tenantId": "6020fbfc-d64f-459d-90ba-7be24298297e"
+	}
+}

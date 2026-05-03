@@ -1,0 +1,23 @@
+{
+	"name": "ds_sales_orders_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_github_http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Bhevendra/ML-Datasets/refs/heads/main/retail_data/sales_orders.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
